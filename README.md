@@ -12,13 +12,15 @@ This project uses Terraform to deploy a WordPress server on AWS and create a DNS
 
 ## 📁 Project Structure
 
+```
 ├── main.tf
 ├── provider.tf
 ├── modules/
-│ └── resources.tf
-│ └── provider.tf
-│ └── variables.tf
+│   ├── resources.tf
+│   ├── provider.tf
+│   └── variables.tf
 └── README.md
+```
 
 
 ## ⚙️ Prerequisites
